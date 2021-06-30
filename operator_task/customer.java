@@ -18,8 +18,13 @@ public class customer {
 		System.out.print("Total: ");
 		System.out.println(total);
 		System.out.print("Total Percentage: ");
-		System.out.println(percentage);
-
+		System.out.print(percentage);
+		System.out.println("%");
 	}
 
+	public static void displaypassfail() {
+		if (percentage < 75.0)
+			;
+		System.out.println("Pass");
+	}
 }
