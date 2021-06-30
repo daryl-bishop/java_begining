@@ -12,8 +12,8 @@ public class calculator {
 		return multiply;
 	}
 
-	public static int divide(int e, int f) {
-		int divide = e / f;
+	public static double divide(double e, double f) {
+		double divide = e / f;
 		return divide;
 	}
 

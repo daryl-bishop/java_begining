@@ -10,7 +10,7 @@ public class operator_task {
 		System.out.println(calculator.multiply(5, 6));
 		System.out.println(calculator.multiply(10, 8));
 		System.out.println(calculator.divide(10, 2));
-		System.out.println(calculator.divide(8, 4));
+		System.out.println(calculator.divide(12, 5));
 		System.out.println(calculator.divide(20, 5));
 		System.out.println(calculator.subtract(12, 3));
 		System.out.println(calculator.subtract(6, 3));
