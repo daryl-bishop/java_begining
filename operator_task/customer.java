@@ -23,8 +23,12 @@ public class customer {
 	}
 
 	public static void displaypassfail() {
-		if (percentage < 75.0)
-			;
-		System.out.println("Pass");
+		if (percentage > 75.0) {
+
+			System.out.println("Well done knob head, you've Passed");
+		}
+
+		else
+			System.out.println("Fail");
 	}
 }
